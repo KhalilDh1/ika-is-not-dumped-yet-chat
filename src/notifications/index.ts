@@ -37,7 +37,7 @@ export const createMessages = (
       title: senderName,
       // will need to change url in prod build use process.ENV
       data: {
-        url: `exp://lucky-creativity-production.up.railway.app:19000/--/messages/${conversationID}/${senderName}`
+        url: `exp://habitat-khalil-g.up.railway.app:19000/--/messages/${conversationID}/${senderName}`
       }
     });
   }
